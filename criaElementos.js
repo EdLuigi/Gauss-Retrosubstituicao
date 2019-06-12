@@ -16,7 +16,7 @@ const criaIndice = (i, j, valor) => {
 	let no = document.createElement("input");
 	//no.setAttribute("type", "text");
 	no.setAttribute("type", "number");
-	no.setAttribute("step", "1e-16");
+	no.setAttribute("step", "1e-20");
 	no.setAttribute("required", "true");
 	no.setAttribute("value", valor);
 	if (valor === "") no.setAttribute("id", "a" + i + "a" + j);
